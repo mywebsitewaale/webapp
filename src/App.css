@@ -26,23 +26,14 @@ body{
 
 @keyframes logo-spin {
     from {
-        transform: rotate(0deg);
+        transform: rotateY(0deg);
     }
     to {
-        transform: rotate(360deg);
+        transform: rotateY(360deg);
     }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    a:nth-of-type(2) .logo {
-        animation: logo-spin infinite 20s linear;
-    }
-}
-
-.card {
-    padding: 2em;
-}
-
-.read-the-docs {
-    color: #888;
+.logo {
+    animation: logo-spin 5s linear infinite;
+    transform-style: preserve-3d;   /* 3D rotation ke liye */
 }
