@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "clean": "rm -rf dist",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://github.com/mywebsitewaale/webapp.git"
   },
   "dependencies": {
     "react": "^19.1.1",
