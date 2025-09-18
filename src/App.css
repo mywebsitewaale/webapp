@@ -35,5 +35,5 @@ body{
 
 .logo {
     animation: logo-spin 5s linear infinite;
-    transform-style: preserve-3d;   /* 3D rotation ke liye */
+    transform-style: preserve-3d;
 }
